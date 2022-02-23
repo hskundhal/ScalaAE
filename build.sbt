@@ -12,4 +12,4 @@ libraryDependencies in ThisBuild ++= Seq(
   "org.scalacheck" %% "scalacheck" % "1.13.4" % Test
 )
 
-lazy val module01 = project
+lazy val moduleAE = project
