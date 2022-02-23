@@ -1,6 +1,4 @@
 
-/* Copyright (C) 2010-2018 Escalate Software, LLC. All rights reserved. */
-
 package koans
 import koans.support.KoanSuite
 import org.scalatest.{Matchers, SeveredStackTraces}
@@ -8,10 +6,6 @@ import org.scalatest.{Matchers, SeveredStackTraces}
 import java.io.{BufferedReader, FileReader}
 import java.net.{MalformedURLException, URL}
 import scala.io.Source
-
-// in the following tests, __ should be filled in with the correct answer for the
-// value to match. Think of __ as a blank value to be replaced, and the tests won't
-// pass until you do.
 
 class TestCases extends KoanSuite with Matchers with SeveredStackTraces {
 
